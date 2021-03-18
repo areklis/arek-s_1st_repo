@@ -1,0 +1,17 @@
+'''
+a=3
+b=a
+a=a+2
+print(a,b)
+#
+s='spam'
+f='foo'
+print(s+f)
+print(2*f)
+'''
+A=10
+6=6
+C=A-(B-4)
+print(C)
+C=(A-B)-4
+print(C)

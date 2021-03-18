@@ -1,0 +1,26 @@
+pets = ['cat','dog','hamster','goldfish','rabbit','dog','turtle']
+print(pets[0])
+print(len(pets))
+#functions
+print(pets)
+pets.sort()
+print(pets)
+pets.reverse()
+print(pets)
+print(pets.index('dog'))
+#print(pets.index('elephant'))
+pets.insert(2,'elephant')
+print(pets)
+print(pets.count('cat'))
+pets.insert(3,'cat')
+print(pets.count('cat'))
+pets.remove('cat')
+print(pets)
+pets.append('dog')
+print(pets)
+while (pets.count('dog')!=0):
+    pets.remove('dog')
+print(pets)
+print(min(pets))
+print(max(pets))
+del pets
